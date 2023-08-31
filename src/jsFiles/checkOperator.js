@@ -37,7 +37,6 @@ export default function checkOperator(num, operator) {
 
   //|| num === "undefined"
   if (num === "") {
-    // console.log("check shodane num khali ");
     num = "";
     input.innerHTML = "";
     return "";
